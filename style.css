@@ -1,0 +1,96 @@
+body{ 
+    background-color: rgb(82, 82, 82); /* Define a cor de fundo do body(página inteira) */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte universal */
+    color: white; /* Define a cor da fonte */
+    margin: 0; /* Zera toda a margem que estiver no body, assim conseguimos definir manualmente */
+    padding: 0; /* Zera toda espaçamento interno que estiver no body, assim conseguimos definir manualmente */
+    height: 100%; /*Define a altura como 100% da página */
+}
+
+header{
+    background-color: black; /* Define a cor de fundo do header(cabeçalho) */
+    color: yellow; /* Define a cor de fonte dos textos do header(cabeçalho) */
+    font-weight: 600; /* Define o peso da fonte dos textos do header(cabeçalho) */
+    display: flex; /* Alinha os conteúdos na horizontal, no caso os conteudos do header(cabeçalho) */
+    flex-direction: row; /* Define que a direção deles será em linha */
+    align-items: center; /* Alinha ao centro */
+}
+
+.titulo{
+    color: yellow;
+}
+.lisa{
+    width: 100px;
+}
+
+header img{
+    width: 50px; /* Define o tamanho da imagem, no caso a logo */
+    height: auto; /* Define a altura da imagem como automática */
+    margin: 0; /* Zera a margem */
+    margin-left: 20px; /* Adiciona margem a esquerda */
+}
+
+header a{
+    color:yellow; /* Define a cor da fonte dos textos presentes no header(cabeçalho)*/
+    text-decoration: none; /* Elimina qualquer formatação/decoração dos textos presentes no header(cabeçalho)*/
+    padding: 10px; /* Define o espaçamento interno do header(cabeçalho)*/
+}
+
+main h1{
+    text-align: center; /* Alinha o título da página ao centro*/
+}
+
+.content{
+    display: grid; /* Alinha os conteúdos na vertical, no caso as imagens e os parágrafos */
+    grid-template-columns: 1fr 1fr 1fr; /* Define quantas colunas irão ocupar, no caso 3 colunas */
+    justify-items: center; /* Alinha ao centro */
+    padding:  35px;
+}
+
+.imagem{
+    display: block; /* Define o elemento como um bloco retangular, ajuda no alinhamento dos itens */
+    margin: 0 auto; /* Zera qualquer margem existente e deixa automática */
+    margin-top: 30px; /* Adiciona margem acima do conteúdo */
+   
+    width: 300px; /* Define o tamanho da imagem */
+    padding: 10px; /* Define o espaçamento interno da imagem */
+}
+.aa{
+    width: 300px;
+}
+
+.content img{
+    display: block; /* Define o elemento como um bloco retangular, ajuda no alinhamento dos itens */
+    margin: 0 auto; /* Zera qualquer margem existente e deixa automática */
+    margin-top: 30px; /* Adiciona margem acima do conteúdo */
+    
+    width: 300px; /* Define o tamanho da imagem */
+    padding: 10px; /* Define o espaçamento interno da imagem */
+    box-sizing: border-box;
+}
+
+.content p{
+    display: block; /* Define o elemento como um bloco retangular, ajuda no alinhamento dos itens */
+    margin: 0 auto; /* Zera qualquer margem existente e deixa automática */
+    margin-top: 10px; /* Adiciona margem acima do conteúdo */
+    margin-bottom: 0; /* Zera a margem inferior */
+    text-align: center; /* Alinha o texto ao centro */
+    font-size: 12px; /* Define o tamanho da fonte */
+    padding-right: 40px; /* Adiciona espaçamento interno a direita */
+    padding-left: 40px; /* Adiciona espaçamento interno a esquerda */
+}
+
+footer{
+    background-color: black; /* Define a cor de fundo do rodapé(footer) */
+    color: white; /* Define a cor da fonte do rodapé(footer) */
+    font-size: 12px; /* Define o tamanho da fonte */
+    font-weight: 600; /* Define o peso da fonte */
+    width: 100%; /* Define o tamanho do footer como 100% da tela */
+    bottom: 0; /* Zera todos os espaçamento abaixo do footer */
+    display: flex; /* Alinha os conteúdos na horizontal, no caso os conteudos do header(cabeçalho) */
+    flex-direction: row; /* Define que a direção deles será em linha */
+    justify-content: center; /* Alinha o conteudo ao centro */
+    position: fixed; /* Define a posição do footer como fixa */
+    margin-top: 450px;
+   
+}
